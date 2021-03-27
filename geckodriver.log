@@ -2468,8 +2468,8 @@ JavaScript error: , line 0: uncaught exception: Object
 JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
 JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1616735787475	geckodriver	INFO	Listening on 127.0.0.1:54444
-1616735790503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilezsDLBG"
+1616737814273	Marionette	INFO	Stopped listening on port 53976
+6735790503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilezsDLBG"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1616735795099	Marionette	INFO	Listening on port 54454
 1616735795262	Marionette	WARN	TLS certificate errors will be ignored for this session
@@ -2485,4 +2485,398 @@ GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:3009:5
 onClosed@chrome://marionette/content/server.js:196:17
 close@chrome://marionette/content/transport.js:225:18
 onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616737812600	Marionette	INFO	Stopped listening on port 54454
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Local\\Temp\\rust_mozprofileNLWFK0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616736224187	Marionette	INFO	Listening on port 54694
+1616736224704	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:332:69
+unregisterCommandsActor@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:395:15
+GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:3009:5
+onClosed@chrome://marionette/content/server.js:196:17
+close@chrome://marionette/content/transport.js:225:18
+onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616737811012	Marionette	INFO	Stopped listening on port 54694
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616799465005	geckodriver	INFO	Listening on 127.0.0.1:64553
+1616799468015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileYQ3qY1"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616799470285	Marionette	INFO	Listening on port 64561
+1616799470697	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9qnhqi45wrf0wizgv2imtk5z, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9qnhqi45wrf0wizgv2imtk5z, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616814031198	geckodriver	INFO	Listening on 127.0.0.1:63661
+1616814034265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofile3OYDvV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616814039030	Marionette	INFO	Listening on port 63669
+1616814039106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616814534945	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Parent 4796, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1616816057194	Marionette	INFO	Stopped listening on port 63669
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616816069821	geckodriver	INFO	Listening on 127.0.0.1:64132
+1616816072886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileN49H2V"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616816075707	Marionette	INFO	Listening on port 64140
+1616816076062	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616816505200	Marionette	INFO	Stopped listening on port 64140
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616817444282	geckodriver	INFO	Listening on 127.0.0.1:64551
+1616817447362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilepSzCb7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616817450525	Marionette	INFO	Listening on port 64560
+1616817450570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616817722043	Marionette	INFO	Stopped listening on port 64560
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616817824545	geckodriver	INFO	Listening on 127.0.0.1:64776
+1616817827603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileUHqR1r"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616817831333	Marionette	INFO	Listening on port 64785
+1616817831787	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616818004063	Marionette	INFO	Stopped listening on port 64785
+1616818007170	geckodriver	INFO	Listening on 127.0.0.1:64927
+1616818010239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilehkLTol"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616818012842	Marionette	INFO	Listening on port 64935
+1616818012938	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616818251976	Marionette	INFO	Stopped listening on port 64935
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616818567206	geckodriver	INFO	Listening on 127.0.0.1:65117
+1616818570250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofile38fefe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616818573496	Marionette	INFO	Listening on port 65125
+1616818573975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616818677233	Marionette	INFO	Stopped listening on port 65125
+[Parent 20104, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616818762438	geckodriver	INFO	Listening on 127.0.0.1:65256
+1616818765513	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilehszKyU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616818769687	Marionette	INFO	Listening on port 65265
+1616818769806	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616818850771	Marionette	INFO	Stopped listening on port 65265
+JavaScript error: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 1135: TypeError: Network request failed
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616821505122	geckodriver	INFO	Listening on 127.0.0.1:49373
+1616821508190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileNsEsu5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616821511672	Marionette	INFO	Listening on port 49381
+1616821511898	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616825338087	Marionette	INFO	Stopped listening on port 49381
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileXomm3N"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616821608247	Marionette	INFO	Listening on port 49524
+1616821608533	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616825336100	Marionette	INFO	Stopped listening on port 49524
+6822152552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilelO0U4H"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616822156069	Marionette	INFO	Listening on port 49768
+1616822156234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 23452, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1616825315400	Marionette	INFO	Stopped listening on port 49768
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616825333163	Marionette	INFO	Stopped listening on port 49923
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Local\\Temp\\rust_mozprofileKP8IcG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616822701752	Marionette	INFO	Listening on port 50206
+1616822702252	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616825322809	Marionette	INFO	Stopped listening on port 50206
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilee87WWa"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616823821133	Marionette	INFO	Listening on port 50630
+1616823821408	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616825325265	Marionette	INFO	Stopped listening on port 50630
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Local\\Temp\\rust_mozprofileKJGR06"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616823977038	Marionette	INFO	Listening on port 50816
+1616823977564	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616825327328	Marionette	INFO	Stopped listening on port 50816
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilejTCAHH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616825019247	Marionette	INFO	Listening on port 51307
+1616825019363	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616825329157	Marionette	INFO	Stopped listening on port 51307
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileOMmm8n"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616825160865	Marionette	INFO	Listening on port 51494
+1616825161001	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616825330897	Marionette	INFO	Stopped listening on port 51494
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616825598803	Marionette	INFO	Stopped listening on port 51726
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616825638167	geckodriver	INFO	Listening on 127.0.0.1:51939
+1616825641221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilepwRAA6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616825644361	Marionette	INFO	Listening on port 51947
+1616825644430	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616825823019	Marionette	INFO	Stopped listening on port 51947
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
