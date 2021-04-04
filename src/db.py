@@ -14,7 +14,7 @@ class DB():
                         port        =   config.conf['porta'],
                         )
         
-
+        
     def salvar(self,values):
         try:
             valida_vaga = self.validar_vaga(values['id_vaga'])
@@ -33,9 +33,6 @@ class DB():
         except  mysql.connector.Error as err:
             return '0'
         
-    def fechar(self):
-        self.db_conf.close()
-        
         
     def update(self,query,where):
         conn = self.db_conf.cursor()
@@ -45,6 +42,7 @@ class DB():
         conn.close()
         return insetrt.lastrowid
     
+    
     def criar_query(self,tabela,campos,where):
        
         sql =[]                         
@@ -53,6 +51,7 @@ class DB():
             campo_sql = ",".join(sql)
             return  " UPDATE "+ tabela +" SET "+ campo_sql + where
         print()
+        
         
     def validar_vaga(self, id_vaga):
         

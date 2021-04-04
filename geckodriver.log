@@ -2529,40 +2529,26 @@ JavaScript error: , line 0: uncaught exception: Object
 JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
 JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1616814031198	geckodriver	INFO	Listening on 127.0.0.1:63661
-1616814034265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofile3OYDvV"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616814039030	Marionette	INFO	Listening on port 63669
-1616814039106	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
-JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
-JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
-1616814534945	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:231:19
-TimedPromise@chrome://marionette/content/sync.js:216:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-[Parent 4796, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
-1616816057194	Marionette	INFO	Stopped listening on port 63669
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1616816069821	geckodriver	INFO	Listening on 127.0.0.1:64132
-1616816072886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileN49H2V"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616816075707	Marionette	INFO	Listening on port 64140
-1616816076062	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
-JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
-JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
-1616816505200	Marionette	INFO	Stopped listening on port 64140
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+[Child 17696, MediaDecoderStateMachine #3] WARNING: 16c5d80bba0 OpenCubeb() failed to init cubeb: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:334
+[Child 17696, MediaDecoderStateMachine #3] WARNING: Decoder=16c6aef4c00 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3900
+[Child 17696, MediaDecoderStateMachine #3] WARNING: Decoder=16c6aef4c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3474
+[Child 17696, MediaDecoderStateMachine #4] WARNING: 16c58b36740 OpenCubeb() failed to init cubeb: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:334
+[Child 17696, MediaDecoderStateMachine #4] WARNING: Decoder=16c6aef4c00 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3900
+[Child 17696, MediaDecoderStateMachine #4] WARNING: Decoder=16c6aef4c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3474
+[Child 17696, MediaDecoderStateMachine #4] WARNING: 16c599a2660 OpenCubeb() failed to init cubeb: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:334
+[Child 17696, MediaDecoderStateMachine #4] WARNING: Decoder=16c6aef4c00 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3900
+[Child 17696, MediaDecoderStateMachine #4] WARNING: Decoder=16c6aef4c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3474
+[Child 17696, MediaDecoderStateMachine #5] WARNING: 16c599e09e0 OpenCubeb() failed to init cubeb: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:334
+[Child 17696, MediaDecoderStateMachine #5] WARNING: Decoder=16c6aef4c00 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3900
+[Child 17696, MediaDecoderStateMachine #5] WARNING: Decoder=16c6aef4c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3474
+[Child 17696, MediaDecoderStateMachine #5] WARNING: 16c599e09e0 OpenCubeb() failed to init cubeb: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:334
+[Child 17696, MediaDecoderStateMachine #5] WARNING: Decoder=16c6aef4c00 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3900
+[Child 17696, MediaDecoderStateMachine #5] WARNING: Decoder=16c6aef4c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3474
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+nMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1616817444282	geckodriver	INFO	Listening on 127.0.0.1:64551
 1616817447362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilepSzCb7"
@@ -2877,6 +2863,317 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld
 JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
 JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
 1616825823019	Marionette	INFO	Stopped listening on port 51947
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616825827640	geckodriver	INFO	Listening on 127.0.0.1:52115
+1616825830697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileP4Gugn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616825834129	Marionette	INFO	Listening on port 52124
+1616825834392	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616826629717	Marionette	INFO	Stopped listening on port 52124
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616826934651	geckodriver	INFO	Listening on 127.0.0.1:52693
+1616826937689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofile0W9oUr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616826942694	Marionette	INFO	Listening on port 52702
+1616827012826	Marionette	INFO	Stopped listening on port 52702
+6826980453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileQuZxT2"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616826982802	Marionette	INFO	Listening on port 52770
+1616826983183	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616827293584	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616827345413	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 1135: TypeError: Network request failed
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 1135: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 1135: TypeError: Network request failed
+Exiting due to channel error.
+Exiting due to channel error.
+k5oqhlo45xbkmcr7s4zix, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+1616886806546	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/36fjz71x7iggnglqq9d2ylmld, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1617421570105	geckodriver	INFO	Listening on 127.0.0.1:52748
+1617421573175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileSTkTo7"
+*** You are running in headless mode.
+1617421693376	geckodriver	INFO	Listening on 127.0.0.1:52840
+1617421696441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileSN4Urn"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617421702836	Marionette	INFO	Listening on port 52848
+1617421702933	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+[Child 20348, MediaDecoderStateMachine #1] WARNING: 170543ef4a0 OpenCubeb() failed to init cubeb: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:323
+[Child 20348, MediaDecoderStateMachine #1] WARNING: Decoder=170562b5400 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3904
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\adalgisio.figueiredo\AppData\Local\Temp\rust_mozprofileSN4Urn\bookmarkbackups\bookmarks-2021-04-03_11_AvIpZPpMGwh7qTGMVcyDMA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:62811
+1617507928837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileXCvADN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617507934984	Marionette	INFO	Listening on port 62820
+1617507935127	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+1617508007671	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+1617508126076	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+1617508160054	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/page-style.js:1002:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child3/pagestyle27 (resource://devtools/server/actors/page-style.js:1002:5)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1617510487317	Marionette	INFO	Stopped listening on port 62820
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1617510495426	Marionette	INFO	Stopped listening on port 63903
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617513857097	geckodriver	INFO	Listening on 127.0.0.1:65462
+1617513860121	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofile2fdgnz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617513866806	Marionette	INFO	Listening on port 65471
+1617513866995	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+[Child 21308, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+[Child 21308, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1617513948074	Marionette	INFO	Stopped listening on port 65471
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617514048195	geckodriver	INFO	Listening on 127.0.0.1:49264
+1617514051216	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofilesAjDZm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617514056401	Marionette	INFO	Listening on port 49273
+1617514056485	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617514202493	Marionette	INFO	Stopped listening on port 49273
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617514208642	geckodriver	INFO	Listening on 127.0.0.1:49428
+1617514211665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADALGI~1.FIG\\AppData\\Local\\Temp\\rust_mozprofileWkmUpx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617514217023	Marionette	INFO	Listening on port 49438
+1617514217422	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aagy3x7rbd371vzvn5s6lg57s, line 4287: unreachable code after return statement
+1617514708688	Marionette	INFO	Stopped listening on port 49438
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
