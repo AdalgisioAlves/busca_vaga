@@ -5,14 +5,14 @@ import time as time
 from src import db
 import sys
 import os
-#os.environ['MOZ_HEADLESS'] = '1'
+os.environ['MOZ_HEADLESS'] = '1'
 
 
 class htmlToArray():
     
     def scrapLinkedin(br):
         
-        busca_por = 'Analista de sistemas'
+        busca_por = 'analista de qualidade'
         br.get('https://www.linkedin.com/jobs/search/?keywords='+busca_por+'&location=Brasil')
         time.sleep(8)
         n_paginas = len(br.find_elements_by_class_name("artdeco-pagination__pages")[0].find_elements(By.TAG_NAME,"button") )
